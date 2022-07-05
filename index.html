@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Douns Les Zouz !</title>
+    <link rel="icon" href="https://i.imgur.com/Hbz45QL.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="particles-js"></div>
+    <div id="box">
+        <div class="box1 onlywide animated bounceOutLeft" style="animation-delay:1.7s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.9s;"></div>
+        <div class="box2 animated bounceOutRight" style="animation-delay:1.9s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.7s;"></div>
+    </div>
+    <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">about</a>
+    <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">work</a>
+    <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
+        <h1>Hi I am Douns</h1>
+        <h2>If you are on this site it is that you are necessarily falling with me in a part of a video game.<br>
+            I don't know unfortunately if you killed me or if I killed you but know that you are a cool person. ;)</h2>
+        <div id="menu">
+            <a onclick="showabout()">about</a>
+            <a onclick="showwork()">work</a>
+        </div>
+        <table>
+                <tr>
+                    <td class="animated zoomIn" style="animation-delay:2.4s;"><a href="https://twitter.com/DounsTV" target="_blank" class="social"><i class="fab fa-twitter"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.6s;"><a href="https://www.twitch.tv/dounstv" target="_blank" class="social"><i class="fab fa-twitch"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.6s;"><a href="https://discord.gg/rcXQt2KcDe" target="_blank" class="social"><i class="fab fa-discord"></i></a></td>
+                </tr>
+        </table>
+    </div>
+    <div id="work_container" class="container">
+        <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
+        <h1>works.</h1>
+        <section>
+            <h2>I don't work for anyone</h2>
+            <p>
+                The purpose of this site is that there is none, I just wanted to have fun creating a site. If you have ideas to put like videos, photos or others let me know on twitter or discord in private message.
+            </p>
+            <div id="used">
+                <div><i class="fab fa-twitter"></i>&nbsp;<i class="fab fa-discord"></i>&nbsp;Contact me on twitter or discord</div>
+            </div>
+            <form method="get" action="https://i.imgur.com/f3wVXQx.png" target="_blank">
+                <button type="submit" class="btn_one">nostalgia</button>
+            </form>
+        </section>
+    </div>
+    <div id="about_container" class="container">
+            <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
+            <h1>about.</h1>
+            <section>
+                <h2>La Marseillaise</h2>
+                <p>
+                    Allons, enfants de la Patrie,<br>
+                    Le jour de gloire est arrivé !<br>
+                    Contre nous de la tyrannie<br>
+                    L'étendard sanglant est levé,<br>
+                    Entendez-vous dans les campagnes<br>
+                    Mugir ces féroces soldats ?<br>
+                    Ils viennent jusque dans vos bras<br>
+                    Égorger vos fils, vos compagnes !<br>
+                    <br>
+                    Aux armes, citoyens,<br>
+                    Formez vos bataillons,<br>
+                    Marchons, marchons !<br>
+                    Qu'un sang impur<br>
+                    Abreuve nos sillons !<br>
+                    <br>
+                    Que veut cette horde d'esclaves,<br>
+                    De traîtres, de rois conjurés ?<br>
+                    Pour qui ces ignobles entraves,<br>
+                    Ces fers dès longtemps préparés ?<br>
+                    Français, pour nous, ah ! quel outrage !<br>
+                    Quels transports il doit exciter !<br>
+                    C'est nous qu'on ose méditer<br>
+                    De rendre à l'antique esclavage !<br>
+                    <br>
+                    Aux armes, citoyens,<br>
+                    Formez vos bataillons,<br>
+                    Marchons, marchons !<br>
+                    Qu'un sang impur<br>
+                    Abreuve nos sillons !<br>
+                    <br>
+                    Quoi ! des cohortes étrangères<br>
+                    Feraient la loi dans nos foyers !<br>
+                    Quoi ! ces phalanges mercenaires<br>
+                    Terrasseraient nos fiers guerriers !<br>
+                    Grand Dieu ! par des mains enchaînées<br>
+                    Nos fronts sous le joug se ploieraient !<br>
+                    De vils despotes deviendraient<br>
+                    Les maîtres de nos destinées !<br>
+                    <br>
+                    Aux armes, citoyens,<br>
+                    Formez vos bataillons,<br>
+                    Marchons, marchons !<br>
+                    Qu'un sang impur<br>
+                    Abreuve nos sillons !<br>
+                    <br>
+                    Tremblez, tyrans, et vous, perfides,<br>
+                    L'opprobre de tous les partis,<br>
+                    Tremblez ! vos projets parricides<br>
+                    Vont enfin recevoir leurs prix !<br>
+                    Tout est soldat pour vous combattre,<br>
+                    S'ils tombent, nos jeunes héros,<br>
+                    La terre en produit de nouveaux,<br>
+                    Contre vous tout prêts à se battre !<br>
+                    <br>
+                    Aux armes, citoyens,<br>
+                    Formez vos bataillons,<br>
+                    Marchons, marchons !<br>
+                    Qu'un sang impur<br>
+                    Abreuve nos sillons !<br>
+                    <br>
+                    Français, en guerriers magnanimes,<br>
+                    Portez ou retenez vos coups !<br>
+                    Épargnez ces tristes victimes,<br>
+                    À regret s'armant contre nous.<br>
+                    Mais ces despotes sanguinaires,<br>
+                    Mais ces complices de Bouillé,<br>
+                    Tous ces tigres qui, sans pitié,<br>
+                    Déchirent le sein de leur mère !<br>
+                    <br>
+                    Aux armes, citoyens,<br>
+                    Formez vos bataillons,<br>
+                    Marchons, marchons !<br>
+                    Qu'un sang impur<br>
+                    Abreuve nos sillons !<br>
+                    <br>
+                    Amour sacré de la Patrie,<br>
+                    Conduis, soutiens nos bras vengeurs.<br>
+                    Liberté, Liberté chérie,<br>
+                    Combats avec tes défenseurs !<br>
+                    Sous nos drapeaux que la victoire<br>
+                    Accoure à tes mâles accents,<br>
+                    Que tes ennemis expirants<br>
+                    Voient ton triomphe et notre gloire !<br>
+                    <br>
+                    Aux armes, citoyens,<br>
+                    Formez vos bataillons,<br>
+                    Marchons, marchons !<br>
+                    Qu'un sang impur<br>
+                    Abreuve nos sillons !<br>
+                    <br>
+                    Nous entrerons dans la carrière<br>
+                    Quand nos aînés n'y seront plus,<br>
+                    Nous y trouverons leur poussière<br>
+                    Et la trace de leurs vertus<br>
+                    Bien moins jaloux de leur survivre<br>
+                    Que de partager leur cercueil,<br>
+                    Nous aurons le sublime orgueil<br>
+                    De les venger ou de les suivre.<br>
+                    <br>
+                    Aux armes, citoyens,<br>
+                    Formez vos bataillons,<br>
+                    Marchons, marchons !<br>
+                    Qu'un sang impur<br>
+                    Abreuve nos sillons !<br>
+                    <br>
+                </p>
+            </section>
+    <script src="index.js" type="text/javascript"></script>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
